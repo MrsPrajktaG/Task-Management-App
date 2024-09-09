@@ -1,0 +1,92 @@
+`<div class="container mt-5">
+    <h2 style="color: rgb(0, 0, 159);"><i class="fa fa-flag fa-sm" aria-hidden="true"></i> Show Projects</h2>
+    <hr style="background-color: rgb(0, 0, 159); height: 2px">
+    <form>
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h2 style="color: rgb(0, 0, 159);">Informations</h2>
+            </div>
+            <div class="col-md-4 text-right">
+                <a routerLink="/adminhome/projects"><button class="btn btn-primary rounded-pill"><i class="fa fa-plus-circle fa-sm" aria-hidden="true"></i> Edit</button></a>
+                <label>&nbsp;</label>
+                <a routerLink=""><button class="btn btn-primary rounded-pill"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+            </div>
+        </div>
+        <div class="card card-default">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="form-control" type="text" readonly value="Company Management System">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Category</label>
+                            <input class="form-control" type="text" readonly value="Web Development">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Duration</label>
+                            <input class="form-control" type="text" readonly value="Start Date: 2022-05-21">
+                            <br>
+                            <input class="form-control" type="text" readonly value="End Date: 2022-05-22">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Project Manager</label>
+                            <input class="form-control" type="text" readonly value="Name: Project Manager One">
+                            <input class="form-control" type="text" readonly value="Email: projectManager@gmail.com">
+                            <input class="form-control" type="text" readonly value="Contact: 7896859685">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Description</label>
+                            <input class="form-control" type="text" readonly value="Project Description">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Status</label>
+                            <input class="form-control" type="text" readonly value="Pending">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Images</label>
+                            <div class="custom-file">
+                                <img src="#" alt="Project Image" class="custom-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Team Members</label>
+                            <div class="form-group">
+                                <select class="form-control select2" style="width: 100%;">
+                                    <option selected="selected">---Team Members---</option>
+                                    <option>Alaska</option>
+                                    <option>California</option>
+                                    <option>Delaware</option>
+                                    <option>Tennessee</option>
+                                    <option>Texas</option>
+                                    <option>Washington</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+  </div>
